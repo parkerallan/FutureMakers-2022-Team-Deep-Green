@@ -1,25 +1,112 @@
-<div>
+<div class="m-0 p-0">
   <div class="bg-dark text-white card mx-5" style="max-width: 95%;">
     <div class="row g-0">
-      <div class="col-md-4" style="margin-top: 65px;">
-        <img src="../assets/data.jpg" class="img-fluid p-3" style="border-radius: 25px;" alt="our AI model">
+      <div class="col-md-4">
+        <img src="../assets/landingphoto.png" class="img-fluid p-5" style="border-radius: 10px; height: 400px; width: auto;" alt="our AI model">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h3 class="card-title">Lorem ipsum dolor sit amet, consectetur</h3>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 class="card-title">FireFume - An Interactive Wildfire Spread Detection Model</h3>
+          <p class="card-text">With FireFume you are able to predict next day wildfire growth. Interactive Wildfire Application leveraging deep learning techniques. Uses Tensorflow and Keras. Libraries like matplotlib and numpy. Our team utilizes cutting edge deep learning architecture such as Convolutional Autoencoders and Generative Adversarial Networks (GANs)
+          </p>
           <hr/>
           <br/>
-          <p>Ut enim ad minim veniam, quis nostrud velit esse</p>
+          <p>Why you may want to use our AI app:</p>
           <div>
             <ul style="list-style-type: square;">
-              <li>Commodo consequat</li>
-              <li>Sed do eiusmod tempor incididunt</li>
-              <li>Dolore eu fugiat nulla pariatur</li>
+              <li>High Accuracy Fire Predictions</li>
+              <li>Colorful Image Displays</li>
+              <li>New Dataset using Remote-Sensing Data and Satellite Imaging</li>
             </ul>
           </div>
-          <a href="#formscroll" class="btn btn-success ms-5">About Us</a>
+          <a href="#ai" class="btn btn-success mx-5">View Predictions</a>
+          <a href="https://github.com/parkerallan/FutureMakers-2022-Team-Deep-Green" target="_blank" type="button" class="btn btn-secondary">Our GitHub <img class="bg-light" style="border-radius: 20%;" src="../assets/github.png"></a>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center m-0">
+            <div class="col-sm-10">
+                <div class="mb-3">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Statistics and Facts</button>
+                    </li>
+                    <!--<li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Survey Results</button>
+                    </li>-->
+                  </ul>
+                </div>
+                <div class="tab-content mb-4" id="pills-tabContent" style="color: white;">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><h3>What We Do</h3><br/>Our team, Deep Green, is passionate about solving real world problems such as wildfires. We all agreed that the most important part is protecting human life, so if we can create an AI solution to predict wildfire direction and growth, we knew this would have a lasting impact. <hr/><h3>What's Here</h3>In this web app, we put the power and flexibility of our model in your hands. Our app includes:
+                    <div>
+                      <ul style="list-style-type: square;">
+                        <li>Be able to view facts and statistics from our survey results</li>
+                        <li>Colorful Image Displays</li>
+                        <li>Try out a test dataset prediction below</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <h3>Some Statistics</h3>
+                    <br />
+                    <ul style="list-style-type: square;">
+                      <li>Lightning strikes the Earth over 100,000 times a day. Of these, 10-20% cause a fire.</li>
+                      <li>An average of 1.2 million acres of U.S. woodland burn every year.</li>
+                      <li>More than four out of every five wildfires are caused by people.</li>
+                    </ul>
+                    <p>Source: Natural History Museum of Utah (nhmu.utah.edu)</p>
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                </div>              
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="row container d-flex justify-content-center" style="margin-left: 200px;">
+    <div class="bg-dark text-white card mx-5" style="max-width: 95%;">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/data.jpg" class="d-block w-100" alt="image predictions">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Training Set Predictions</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/layers.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Some of our model's architecture</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/oregonfire.jpg" class="d-block w-100" alt="satellite imaging of fire">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>2020 Oregon Wildfire Captured by NASA's Aqua Satellite</h5>
+              <p>Source: NASA.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </div>

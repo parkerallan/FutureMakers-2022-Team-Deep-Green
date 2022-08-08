@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import { AboutComponent } from './components/about/about.component';
 import { AibodyComponent } from './components/aibody/aibody.component';
+import { AboutbodyComponent } from './components/aboutbody/aboutbody.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AibodyComponent } from './components/aibody/aibody.component';
     HeaderComponent,
     BodyComponent,
     AboutComponent,
-    AibodyComponent
+    AibodyComponent,
+    AboutbodyComponent
   ],
   imports: [
     BrowserModule,
