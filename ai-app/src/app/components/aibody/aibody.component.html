@@ -1,10 +1,30 @@
-<div id="ai">
-  <div class="text-white card mx-5" style="border: none; max-width: 95%; background-color: #101010;">
-    <div class="bg-dark text-white card m-5" style="max-width: 95%;">
-      <div class="card-body bg-dark text-center">
-        <p class="m-0" style="background-color: #212529;">Click the button on the right to make a prediction off of our test dataset on the next day spread of a wildfire<a routerLink="/about-us" class="btn btn-success ms-3">Our Wildfire Predictions</a></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="ai">
+    <div class="text-white card mx-5" style="border: none; max-width: 95%; background-color: #101010;">
+      <div class="bg-dark text-white card m-5" style="max-width: 95%;">
+        <div class="card-body bg-dark text-center">
+          <p class="m-0" style="background-color: #212529;">Click the button on the right to make a prediction off of our test dataset on the next day spread of a wildfire</p>
+          <div class="col-2 mb-3 mt-1" style="margin-left: 710px;">
+            <input class="form-control" type="file" id="formFile">
+          </div>
+            <button onclick="predict()" class="btn btn-success ms-3">
+              <span class="spinner-border spinner-border-sm btn-success" role="status" aria-hidden="true" id="spinner" style="visibility: hidden;"></span> Our Wildfire Predictions 
+            </button>
+          
+          <div id="img" style="display: none;">
+            <img style="height: 300px; width:auto;"src="../assets/imagepred.png"/>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
+</body>
+</html>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+declare function predict(): any;
 @Component({
   selector: 'app-aibody',
   templateUrl: './aibody.component.html',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AibodyComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   }
