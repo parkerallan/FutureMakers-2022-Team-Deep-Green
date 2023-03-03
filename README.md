@@ -4,7 +4,7 @@ demo vid: https://youtu.be/AYg5c1oWT70
 <br />
 presentation slides: https://docs.google.com/presentation/d/1esHzIkhQU3q1IiMVxXHA-2j6345qE00jEHyFUNGvGUo/edit?usp=sharing
 
-Over a two week sprint, we created a convolutional autoencoder that predicts next day wildfire activity. As I worked on the backend, model prototyping, the rest of our team focused on the frontend and presentation side of things. Here's a brief overview of my work.
+Over a two week sprint, we created a convolutional autoencoder that predicts next day wildfire activity. As I worked on the backend, more specifically the model prototyping, the rest of our team focused on the frontend and presentation side of things. Here's a brief overview of my work.
 
 ## The Problem
 
